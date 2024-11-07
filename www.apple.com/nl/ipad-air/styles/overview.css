@@ -1,0 +1,123 @@
+/*------------------------------------*\
+   RIBBON CSS
+\*------------------------------------*/
+@media only screen and (max-width: 1068px) {
+    .ac-ls-visible .ipad-air-product-page-ribbon.ribbon-bts-2024 {
+        top: 116px;
+    }
+}
+@media only screen and (max-width: 833px) {
+    .ac-ls-visible .ipad-air-product-page-ribbon.ribbon-bts-2024 {
+        top: 180px;
+    }
+}
+/*------------------------------------*\
+   END RIBBON CSS
+\*------------------------------------*/ 
+
+/*------------------------------------*\
+   LOCAL SCREENS
+\*------------------------------------*/
+
+/*------------------------------------*\
+   END LOCAL SCREENS
+\*------------------------------------*/ 
+
+
+
+
+/*------------------------------------*\
+   LOCAL FIXES
+\*------------------------------------*/
+
+@media only screen and (max-width:734px) {
+	.typography-overview-hero-headline {
+		font-size: 79px;
+	}
+}
+
+@media only screen and (max-width:375px) {
+	.typography-overview-hero-headline {
+		font-size: 76px;
+	}
+}
+
+@media only screen and (max-width:1068px) {
+	.section-contrast .product-tile .product-tile-ctas .button, .section-contrast .product-tile .product-tile-ctas .product-tile-current {
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width:734px) {
+	.section-contrast .product-tile .product-tile-ctas .button, .section-contrast .product-tile .product-tile-ctas .product-tile-current {
+		margin-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width:734px) {
+	.section-contrast .product-tile-ipad-air .product-tile-positioning {
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width:375px) {
+.section-contrast .product-tile-ipad-air .product-tile-positioning {
+		margin-bottom: 40px;
+	}
+}
+
+.section-highlights .media-gallery-wrapper .media-gallery-item-ipados .caption-container .caption { 
+	width: 34%;
+}
+
+@media only screen and (max-width:1068px) {
+	.section-highlights .media-gallery-wrapper .media-gallery-item-ipados .caption-container .caption { 
+		width: var(--hlts-glry-caption-width);
+	}
+}
+
+.section-contrast .product-tile-ctas .icon-wrapper {
+	margin-inline-start: 29px;
+}
+
+@media only screen and (max-width:1068px) {
+	.section-contrast .product-tile-ctas .icon-wrapper {
+		margin-inline-start: 0px;
+	}
+}
+
+@media only screen and (max-width:734px) {
+	html.no-enhanced .section-welcome .headline-lockup, .section-welcome .headline-lockup {
+		margin-bottom: 7px;
+	}
+}
+
+@media only screen and (max-width:1068px) {
+	.section-welcome {
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width:734px) {
+	.section-welcome {
+		margin-top: 15px;
+	}
+}
+
+.section-welcome .welcome__lockup .welcome__lockup-primary-copy {
+    transform: translateY(125px);
+    transition: opacity 1s ease,transform 2.5s cubic-bezier(0,0.35,0.23,1);
+    margin-bottom: 8px;
+    color: #6e6e73;
+}
+
+.section-welcome .welcome__lockup-primary-copy {
+    font-size: 17px;
+    line-height: 1.2353641176;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+/*------------------------------------*\
+   END LOCAL FIXES
+\*------------------------------------*/ 

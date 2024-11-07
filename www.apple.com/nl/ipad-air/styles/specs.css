@@ -1,0 +1,128 @@
+/*------------------------------------*\ 
+   LOCAL SCREENS 
+\*------------------------------------*/ 
+ 
+ 
+ 
+ 
+ 
+ /*------------------------------------*\ 
+   END LOCAL SCREENS 
+\*------------------------------------*/ 
+ 
+ 
+ 
+ 
+ 
+ /*------------------------------------*\ 
+   LOCAL FIXES 
+\*------------------------------------*/ 
+ 
+ 
+.section-techspecs .column-11-inch .diagram-text li:first-child {
+   margin-top: 13px;
+}
+
+.section-techspecs .column-12-inch .diagram-text li:first-child {
+   margin-top: 9px;
+}
+ 
+ 
+ @media only screen and (max-width: 1068px) {
+	.section-techspecs .column-11-inch .diagram-text li:first-child {
+	   margin-top: 6px;
+	}
+
+	.section-techspecs .column-12-inch .diagram-text li:first-child {
+	   margin-top: 6px;
+	}
+ }
+ 
+ @media only screen and (max-width:1068px) and (min-width: 735px) {
+	.section-buttons-and-connectors .caption-smart-connector {
+		top: 414px;
+	}
+}
+
+@media only screen and (max-width:734px) {
+	.section-buttons-and-connectors .caption-microphone-1 {
+		left: 266px;
+	}
+}
+
+.section-buttons-and-connectors .caption-magnetic-connector {
+    bottom: 308px;
+ }
+ 
+ @media only screen and (max-width:1068px) {
+    .section-buttons-and-connectors .caption-magnetic-connector {
+        bottom: 224px;
+    }
+ }
+ 
+ @media only screen and (max-width:734px) {
+    .section-buttons-and-connectors .caption-magnetic-connector {
+        bottom: 202px;
+    }
+ }
+
+.section-finish .caption-blue {
+    left: 0px;
+}
+@media only screen and (max-width: 1068px) {
+    .section-finish .caption-blue {
+        left: -4px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-finish .caption-blue {
+        left: 0px;
+    }
+}
+.section-finish .caption-purple {
+    left: 177px;
+}
+@media only screen and (max-width: 1068px) {
+    .section-finish .caption-purple {
+        left: 140px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-finish .caption-purple {
+        left: 0px;
+    }
+}
+.section-finish .caption-starlight {
+    left: 336px;
+}
+@media only screen and (max-width: 1068px) {
+    .section-finish .caption-starlight {
+        left: 264px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-finish .caption-starlight {
+        left: 0px;
+    }
+}
+.section-finish .caption-spacegray {
+    left: 514px;
+}
+@media only screen and (max-width: 1068px) {
+    .section-finish .caption-spacegray {
+        left: 414px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-finish .caption-spacegray {
+        left: 0px;
+    }
+}
+
+.section-environment .callout-techspecs-environment-content .content-cta {
+    width: 100%;
+}
+
+ /*------------------------------------*\ 
+   END LOCAL FIXES 
+\*------------------------------------*/

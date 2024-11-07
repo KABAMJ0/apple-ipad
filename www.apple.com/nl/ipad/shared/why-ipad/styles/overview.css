@@ -1,0 +1,39 @@
+/*------------------------------------*\
+   LOCAL SCREENS
+\*------------------------------------*/
+
+
+
+
+
+/*------------------------------------*\
+   END LOCAL SCREENS
+\*------------------------------------*/
+
+/*------------------------------------*\
+   LOCAL FIXES
+\*------------------------------------*/
+
+
+@media only screen and (max-width: 735px) {
+	.why-ipad-content .section-power .chip .disclaimer {
+		bottom:408px;
+	}
+}
+
+
+@media only screen and (max-width: 1068px){
+	.why-ipad-content .section-learning .grid-item-ar .grid-figure picture {
+		position: relative;
+		align-self:flex-start
+	}
+}
+@media only screen and (max-width: 734px){
+	.why-ipad-content .section-learning .grid-item-ar .grid-figure picture {
+		align-self:flex-end
+	}
+}
+
+/*------------------------------------*\
+   END LOCAL FIXES
+\*------------------------------------*/
